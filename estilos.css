@@ -1,0 +1,169 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: azure;
+}
+.informacion-adicionales {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+}
+.informacion-adicionales div {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 12px 60px;
+    text-decoration: none;
+    font-family: 'DM Sans', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightslategray;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 80px;
+    text-decoration: none;
+    font-family: 'DM Sans', sans-serif;
+}
+li a:hover {
+    opacity: 0.4;
+}
+
+#info-adicional8, #info-adicional9, #info-adicional10, #info-adicional11 {
+    text-align: center;
+    font-family:'DM Sans', sans-serif ;
+}
+
+#name {
+    text-decoration: underline;
+    text-decoration-color: #000000;
+}
+
+.foto {
+    padding: 10px 10px 10px 20px;
+}
+
+.nombre {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+}
+
+#nombre-apellido {
+  padding: 40px 10px 10px;
+}
+
+#name {
+    font-family: 'DM Sans', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.descripcion p {
+    line-height: 1.6;
+    font-family: 'DM Sans', sans-serif;
+    text-align: center;
+    width: 180px;
+}
+#experiencia-laboral p {
+    font-family: 'DM Sans', sans-serif;
+}
+
+#text1, #text2, #text3, #text4 {
+    width: 340px;
+    text-align: center;
+}
+
+#formacion1 , #formacion2 {
+width: 340px;
+text-align: center;
+}
+
+#cursos2 {
+    width: 340px;
+    text-align: center;
+}
+
+.footer {
+    background-color: lightslategray;
+    height: 40px;
+}
+
+.informacion2 {
+    padding: 150px 50px 10px 15px;
+}
+
+footer p {
+    color: lightslategray;
+}
+
+.informacion1 {
+    padding: 150px 150px 10px 5px;
+}
+
+/* Responsive */
+
+@media (max-width: 848px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .informacion1 {
+        padding: 100px;
+        text-align: center;
+    }
+
+    .descripcion  {
+        text-align: center;
+    } 
+
+    .informacion2 {
+        text-align: center;
+    }
+    
+    .habilidades2 {
+        padding: 50px 0px 5px 0px;
+    }
+
+    .informacion2 {
+        padding: 10px 50px 40px 15px;
+    }
+
+    #name {
+        font-size: 30px;
+    }
+} 
+
+@media (max-width: 705px) {
+    li a {
+        padding: 16px 40px;
+    }
+}
+
+@media (max-width: 385px) {
+    li a {
+        padding: 16px 35px;
+    }
+}
+
+
+
+
